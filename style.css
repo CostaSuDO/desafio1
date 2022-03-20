@@ -226,3 +226,14 @@ section{
     font-weight: bold;
 }
 
+.div_p{
+    margin-top: 15px;
+    max-width: 520px;
+    background-image: linear-gradient(to bottom, green, white);
+    border: 1px black solid;
+}
+
+.div_p:hover{
+    background-image: linear-gradient(to bottom, white, green);
+}
+
