@@ -1,0 +1,225 @@
+.color-verde{
+    color:green;
+}
+
+.color-blanco{
+    color:white;
+}
+
+.background-blanco{
+    background-color:white;
+}
+
+.background-gray{
+    background-color: gray;
+}
+
+body {
+    background-color: rgb(117, 185, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size:28px;
+}
+
+header p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style:italic;
+}
+
+nav {
+    text-align: center;
+}
+
+footer{
+    margin-top: 25px;
+    font-style:italic;
+    text-align:center;
+    font-size:15px;
+}
+
+a{
+    background-color: rgb(29, 32, 29);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius:10%;
+    display:block;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    a{
+        background-color: rgb(29, 32, 29);
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+        border-radius:10%;
+        display:inline;
+    }
+}
+
+a:hover{
+    transform: scale(2,2);
+    transition: all 2s;
+    color: green;
+    height: 2px;
+}
+
+.haciaAbajo{
+    margin-top: 25px;
+}
+
+.container{
+    display:grid;
+    justify-items:center;
+    margin-top: 30px;
+}
+
+.div{
+    display:block;
+}
+
+@media (min-width: 768px) {
+    .div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+    } 
+
+    .video_one{
+        width:100%;
+        height: 100%;
+        border: solid black;
+    }
+    
+    .video_two{
+        width:100%;
+        height: 100%;
+        border: solid black;
+    }
+}
+
+.img_one{
+    width: 100%;
+    height: 100%;
+    border: solid black;
+}
+
+
+.img_two{
+    width: 100%;
+    height: 100%;
+    border: solid black;
+}
+
+.video_one{
+    width:100%;
+    height: 100%;
+    border: solid black;
+    display:block;
+}
+
+.video_two{
+    width:100%;
+    height: 100%;
+    border: solid black;
+    display:block;
+}
+
+/* CSS CONTACTO */
+
+
+
+/* CSS QUIENES_SOMOS */
+
+
+.font_p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.h2{
+    color: black;
+    font-weight: 50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list{
+    display:grid;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    margin-top: 30px;
+}
+
+.fotos_proceso{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img_y_p{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.img_y_p:hover{
+    transform:scale(2);
+    transition:all 2s;
+}
+
+.borde_fotos{
+    border: 2px solid black;
+    border-radius:50%;
+}
+
+.p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.p:hover{
+    color: green;
+    background-color: wheat;
+}
+
+
+/* CSS UBICACIÓN */
+
+.ubicacion{
+    display:flex;
+    margin-left:10px;
+}
+
+.ubicacion_parrafo{
+    width: 10%;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* CSS PRODUCTOS */
+
+.borde_productos{
+    border: 2px solid black;
+}
+
+.letra_productos{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
