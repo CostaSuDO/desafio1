@@ -221,5 +221,8 @@ section{
     font-family:'Courier New', Courier, monospace;
 }
 
-
+.footer{
+    font-style: italic;
+    font-weight: bold;
+}
 
